@@ -199,7 +199,7 @@
 .elementor-1257 .elementor-element.elementor-element-89122ed {
     --grid-template-columns: repeat(0, auto);
     --icon-size: 20px;
-    --grid-column-gap: 15px;
+    --grid-column-gap: 4px;
     --grid-row-gap: 0px;
 }
 
@@ -228,7 +228,7 @@
 }
 
 .elementor-1257 .elementor-element.elementor-element-89122ed .elementor-social-icon:hover i {
-    color: var(--e-global-color-228c53f);
+    color: var(--e-global-color-primary);
 }
 
 .elementor-1257 .elementor-element.elementor-element-89122ed .elementor-social-icon:hover svg {
