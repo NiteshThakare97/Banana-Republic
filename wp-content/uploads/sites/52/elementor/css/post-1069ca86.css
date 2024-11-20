@@ -3019,9 +3019,70 @@
     top: -157px;
 }
 
+
+/* animate.text  */
+
+.animated-text {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    overflow: hidden;
+    /* Prevents overflow */
+    white-space: nowrap;
+}
+
+.animated-text span {
+    opacity: 0;
+    display: inline-flex;
+    align-items: center;
+    animation: fadeIn 4s linear infinite;
+}
+
+.animated-text span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.animated-text span:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.animated-text span:nth-child(3) {
+    animation-delay: 2s;
+}
+
+.animated-text span:nth-child(4) {
+    animation-delay: 3s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(10px);
+    }
+    20% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    80% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+}
+
+
+/* animate.text  */
+
 @media only screen and (min-width: 1600px) {
     .elementor-1069 .elementor-element.elementor-element-6a6026a {
-        padding: 13rem 0rem 25rem;
+        padding: 13rem 0rem 33rem;
+    }
+    #mainbanner-img {
+        top: 46rem;
     }
     .elementor-1069 .elementor-element.elementor-element-ce452ea {
         padding: 1em 1em 11em 1em;
@@ -3055,6 +3116,12 @@
     #approach-img {
         left: 65%;
         top: -180px;
+    }
+    .elementor-1069 .elementor-element.elementor-element-6a6026a {
+        padding: 6rem 0rem 28rem;
+    }
+    #mainbanner-img {
+        top: 41rem;
     }
 }
 
@@ -3101,7 +3168,25 @@
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
     .elementor-1069 .elementor-element.elementor-element-6a6026a {
-        padding: 2rem 8rem 20rem 0rem;
+        padding: 0rem 0rem 22rem 0rem;
+        background-position: bottom;
+        background-size: contain;
+        background-color: #080f22;
+    }
+    #mainbanner-img {
+        top: 32.5rem;
+        align-items: baseline;
+    }
+    #mainbanner-img img {
+        width: 33%;
+    }
+    #homesec2-flag {
+        right: 14%;
+        top: -71px;
+        width: 16%;
+    }
+    .elementor-element-c94bea4 h6 {
+        margin: 15px 0px 2px;
     }
     .elementor-1069 .elementor-element.elementor-element-e19dbc0 .elementor-heading-title {
         padding: 1% 3% 1%;
@@ -3207,8 +3292,13 @@
         padding: 2em 1em 3em 1em;
     }
     .elementor-1069 .elementor-element.elementor-element-49dabca h4 {
-        font-size: 13px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .animated-text {
+        gap: 0px 15px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .elementor-element-1bc043b button {
         margin-bottom: 30px;
