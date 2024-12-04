@@ -3131,7 +3131,7 @@
     }
     #mainbanner-img img {
         width: 30%;
-        height: fit-content;
+        height: 100%;
     }
     .elementor-1069 .elementor-element.elementor-element-3225eef {
         background-position: right;
@@ -3235,7 +3235,7 @@
         padding: 2rem 0rem 8rem;
     }
     #mainbanner-img {
-        top: 30rem;
+        top: 29rem;
     }
     #mainbanner-meme {
         margin-left: -12px;
