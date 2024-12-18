@@ -265,9 +265,9 @@
 }
 
 @media(max-width:1024px) {
-    .elementor-1257 .elementor-element.elementor-element-cd4d3ce img {
+    /* .elementor-1257 .elementor-element.elementor-element-cd4d3ce img {
         width: 30%;
-    }
+    } */
     .elementor-1257 .elementor-element.elementor-element-72b020e .elementor-icon-list-item>.elementor-icon-list-text,
     .elementor-1257 .elementor-element.elementor-element-72b020e .elementor-icon-list-item>a {
         font-size: var(--e-global-typography-c85a336-font-size);
