@@ -3108,6 +3108,10 @@
     width: 20px;
 }
 
+#how-to-participate .elementskit-single-testimonial-slider {
+    height: 188px;
+}
+
 @media only screen and (min-width: 1600px) {
     .elementor-1069 .elementor-element.elementor-element-6a6026a {
         padding: 13rem 0rem 33rem;
