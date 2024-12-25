@@ -3112,6 +3112,21 @@
     height: 188px;
 }
 
+#story-board button {
+    border-color: #8ed5e900;
+    border-radius: 1px 1px 1px 1px;
+    padding: 5px 5px 5px 5px;
+    top: 45%;
+    width: auto;
+    height: fit-content;
+    opacity: 1;
+}
+
+#story-board button:hover,
+#story-board button:focus {
+    background-color: #f3bb20;
+}
+
 @media only screen and (min-width: 1600px) {
     .elementor-1069 .elementor-element.elementor-element-6a6026a {
         padding: 13rem 0rem 33rem;
