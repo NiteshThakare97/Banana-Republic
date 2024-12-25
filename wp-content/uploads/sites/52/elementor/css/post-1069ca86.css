@@ -3122,10 +3122,6 @@
     opacity: 1;
 }
 
-#story-board img {
-    height: 100vh;
-}
-
 #story-board button:hover,
 #story-board button:focus {
     background-color: #f3bb20;
