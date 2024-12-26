@@ -2761,6 +2761,19 @@
     top: -6rem;
 }
 
+#governancesec3-2 .elementor-element-6e5f1ca {
+    padding: 0em 1em 0em 1em;
+}
+
+#governancesec3 .elementor-element-6568dbf {
+    padding: 0em 1em 1em 6em;
+}
+
+#governancesec3 .elementor-element-6568dbf p {
+    margin: 8px 0px 0px 0px;
+    letter-spacing: 1px;
+}
+
 
 /* floating effect  */
 
@@ -3117,6 +3130,7 @@
 
 #how-to-participate .elementskit-single-testimonial-slider {
     height: 188px;
+    background-color: #122148;
 }
 
 #story-board {
@@ -3147,12 +3161,91 @@
 }
 
 #how-buy .elementor-container {
-    /* display: flex; */
     flex-wrap: wrap;
 }
 
 #how-buy img {
     width: 100%;
+}
+
+
+/* Governance CSS */
+
+#governance-page .floating {
+    width: auto;
+}
+
+#how-to-participate {
+    background: linear-gradient(45deg, #37833c, #8faa25);
+}
+
+#governance-12sec .elementor-container {
+    background-image: url(../../../../../images/Governance/12/Section12BG.png);
+}
+
+#governance-12sec .elementor-element-populated {
+    padding: 0px;
+    align-content: center;
+}
+
+#governance-12sec {
+    background-color: #0d1939;
+    padding: 6em 2em 0em 2em;
+}
+
+#governance-12sec .elementor-element-ff5fdb8 {
+    padding-right: 10px;
+}
+
+#governancesec10 .elementor-container {
+    background-image: none
+}
+
+#governancesec10 {
+    background-color: #0d1939;
+    background-image: url(../../../../../images/Governance/10/Section10BG.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0em;
+}
+
+#governancesec8 {
+    background-image: url(../../../../../images/Governance/08/Sec08BG.png);
+    padding: 5em 1em 7em 1em;
+}
+
+#governancesec8 .elementor-element-a35ec1e {
+    padding-top: 5rem;
+}
+
+#governancesec8 h2 {
+    letter-spacing: 9px;
+    margin-bottom: 3rem;
+}
+
+#governancesec9 {
+    background-image: url(../../../../../images/Governance/09/Section09BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#governancesec9>#citizen-benefits .elementskit-post-image-card {
+    background: #122148;
+    border: 2px solid #122148;
+}
+
+#governancesec9>#citizen-benefits .elementskit-post-image-card .entry-title {
+    color: #f3bb20;
+}
+
+#governancesec3 {
+    background-image: url(../../../../../images/Governance/03/BG-Image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #0d1939;
+    padding-bottom: 4rem;
 }
 
 @media only screen and (min-width: 1600px) {
