@@ -2774,6 +2774,11 @@
     letter-spacing: 1px;
 }
 
+#governancesec6 h5 {
+    text-transform: none;
+    font-weight: 500;
+}
+
 
 /* floating effect  */
 
