@@ -3112,6 +3112,12 @@
     height: 188px;
 }
 
+#story-board {
+    overflow: hidden;
+    padding: 4em 2em 0em 2em;
+    background-color: #172951;
+}
+
 #story-board button {
     border-color: #8ed5e900;
     border-radius: 1px 1px 1px 1px;
