@@ -2556,7 +2556,8 @@
     letter-spacing: 2px;
 }
 
-.elementor-element-c17c6ec button {
+.elementor-element-c17c6ec button,
+#nav-btn button {
     background: #f3bb20;
     border-color: #f3bb20;
     color: #161a25;
@@ -2565,6 +2566,12 @@
     border-radius: 10px;
     padding: 12px 20px;
     margin-top: 30px;
+}
+
+#nav-btn button {
+    margin-top: 0px;
+    font-size: 14px;
+    padding: 8px 20px;
 }
 
 .elementor-element-1bc043b button {
@@ -3118,6 +3125,12 @@
     background-color: #172951;
 }
 
+#how-buy {
+    overflow: hidden;
+    padding: 0em;
+    background-color: #172951;
+}
+
 #story-board button {
     border-color: #8ed5e900;
     border-radius: 1px 1px 1px 1px;
@@ -3131,6 +3144,15 @@
 #story-board button:hover,
 #story-board button:focus {
     background-color: #f3bb20;
+}
+
+#how-buy .elementor-container {
+    /* display: flex; */
+    flex-wrap: wrap;
+}
+
+#how-buy img {
+    width: 100%;
 }
 
 @media only screen and (min-width: 1600px) {
@@ -3158,6 +3180,12 @@
     #approach-img {
         left: 65%;
         top: -191px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #nav-btn a {
+        padding: 0px;
     }
 }
 

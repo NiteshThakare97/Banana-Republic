@@ -57,14 +57,14 @@
 
 .elementor-1208 .elementor-element.elementor-element-d191a3f .elementskit-navbar-nav>li>a {
     font-family: var(--e-global-typography-c85a336-font-family), Sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     text-transform: var(--e-global-typography-c85a336-text-transform);
     line-height: var(--e-global-typography-c85a336-line-height);
     letter-spacing: var(--e-global-typography-c85a336-letter-spacing);
     word-spacing: var(--e-global-typography-c85a336-word-spacing);
     color: var(--e-global-color-primary);
-    padding: 0px 0px 0px 40px;
+    padding: 0px 40px 0px 0px;
     align-items: end;
 }
 
@@ -448,6 +448,9 @@
         max-width: 23px;
     }
 }
+
+
+/* My CSS  */
 
 @media only screen and (min-width: 1400px) {
     .elementor-1208 .elementor-element.elementor-element-6ad12fc {
