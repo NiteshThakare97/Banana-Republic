@@ -2912,6 +2912,170 @@
     letter-spacing: 1px;
 }
 
+#governancesec5 .elementskit-single-testimonial-slider {
+    background-color: #212542;
+    text-align: center;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#governancesec5 .elementskit-commentor-bio {
+    justify-content: center;
+}
+
+#governancesec5 {
+    padding: 0;
+    background: linear-gradient(45deg, #407947, #8da926);
+}
+
+#governancesec5 p {
+    color: #fff;
+}
+
+#governancesec5 .elementor-element-e19dbc0 .elementor-heading-title {
+    padding: 1% 0% 0% 0%;
+}
+
+#governancesec5-1 {
+    padding: 0em 1em 0em 1em;
+}
+
+#governancesec5-1 p {
+    margin: 0% 3% 0% 5%;
+}
+
+#governancesec5-1 .elementskit-profile-info .elementskit-author-name {
+    color: #fff;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+#how-to-participate h2 {
+    letter-spacing: 3px;
+}
+
+#how-to-participate .elementskit-author-des {
+    position: absolute;
+    right: 30px;
+    top: 0px;
+}
+
+#how-to-participate .elementskit-author-des h1 {
+    color: #1c345e;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+#how-to-participate p {
+    margin: 20px 0px 0px 0px;
+}
+
+#governancesec9 .elementor-element-e2dce13>.elementor-element-populated {
+    padding: 0%;
+}
+
+#governancesec9 .elementor-col-70 .elementor-element-dd1edd5 {
+    text-align: end;
+}
+
+#governancesec9 .elementor-col-70 h2 {
+    font-size: 65px;
+    letter-spacing: 5px;
+    margin: 95px 0px 5px 0px;
+    text-shadow: 4px 4px 4px #82561769;
+    line-height: 80px;
+}
+
+#governancesec9giftman {
+    position: absolute;
+    top: -10px;
+    left: 18%;
+}
+
+#governancesec6 img:hover {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+    cursor: pointer;
+}
+
+#governancesec5 .elementskit-single-testimonial-slider img:hover {
+    -webkit-animation: jello-horizontal 0.9s both;
+    animation: jello-horizontal 0.9s both;
+    cursor: pointer;
+}
+
+
+/* jello animation  */
+
+.jello-horizontal {
+    -webkit-animation: jello-horizontal 0.9s both;
+    animation: jello-horizontal 0.9s both;
+}
+
+@-webkit-keyframes jello-horizontal {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+        -webkit-transform: scale3d(0.95, 1.05, 1);
+        transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+        -webkit-transform: scale3d(1.05, 0.95, 1);
+        transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes jello-horizontal {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+        -webkit-transform: scale3d(0.95, 1.05, 1);
+        transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+        -webkit-transform: scale3d(1.05, 0.95, 1);
+        transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+
+/* jello animation  */
+
 
 /* floating effect  */
 
@@ -3269,6 +3433,7 @@
 #how-to-participate .elementskit-single-testimonial-slider {
     height: 188px;
     background-color: #122148;
+    padding: 50px 30px 30px 30px;
 }
 
 #story-board {
@@ -3412,6 +3577,23 @@
         left: 65%;
         top: -191px;
     }
+    /* Governance CSS  */
+    /* #governance-mainbanner {
+        padding: 3rem 0rem 16rem;
+    }
+    #governancesec2,
+    #governancesec10 {
+        padding: 3%;
+    }
+    #governancesec9 {
+        padding: 6em 0em 1em 0em;
+    }
+    #governancesec7 {
+        padding: 8em 1em 3em 1em;
+    }
+    #governancesec9giftman {
+        left: 30%;
+    } */
 }
 
 @media only screen and (min-width: 1024px) {
@@ -3438,6 +3620,16 @@
     #mainbanner-img {
         top: 41rem;
     }
+    /* Governance CSS  */
+    /* #governance-mainbanner {
+        padding: 3rem 0rem 8rem;
+    }
+    #governancesec7 {
+        padding: 8em 1em 3em 1em;
+    }
+    #governancesec9giftman {
+        left: 28%;
+    } */
 }
 
 @media only screen and (max-width: 1024px) {
@@ -3454,6 +3646,30 @@
     #sec5map {
         bottom: auto;
     }
+    /* Governance CSS  */
+    /* #governancesec2 {
+        background-position: left;
+    }
+    #governancesec3 {
+        background-size: cover;
+    }
+    .elementor-1069 .elementor-element.elementor-element-4e97c85 .elementor-container {
+        flex-direction: column-reverse;
+    }
+    #governancesec7-col1,
+    #governancesec7-col2 {
+        padding: 0em;
+    }
+    #governancesec9 {
+        background-size: contain;
+        background-color: #f9b507;
+    }
+    #governance-12sec .elementor-element-ff5fdb8 {
+        padding: 2%;
+    }
+    #governancesec7-col2text {
+        padding: 0%;
+    } */
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
@@ -3479,6 +3695,10 @@
         width: 20%;
         left: 77%;
     }
+    /* Governance CSS  */
+    /* #governance-mainbanner h6 {
+        margin: 20px 482px 0px 0px;
+    } */
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
@@ -3528,6 +3748,28 @@
         left: 80%;
         top: -134px;
     }
+    /* Governance CSS  */
+    /* #governancesec5-1 .elementskit-profile-info .elementskit-author-name {
+        font-size: 15px;
+    }
+    #governance-mainbanner .elementor-element-c17c6ec p {
+        padding-right: 1%;
+        line-height: 18px;
+        letter-spacing: 1px;
+        font-size: 14px;
+    }
+    #governance-mainbanner .elementor-element-83f6d5a>.elementor-element-populated {
+        padding: 0em 25em 0em 1em;
+    }
+    #governancesec9giftman {
+        left: 9%;
+    }
+    #governancesec9 .elementor-col-70 h2 {
+        font-size: 55px;
+        letter-spacing: 0px;
+        margin: 140px 0px 5px 0px;
+        line-height: 65px;
+    } */
 }
 
 @media only screen and (max-width: 600px) {
@@ -3663,4 +3905,42 @@
     #linktree-cont img {
         width: 20px;
     }
+    /* Governance CSS  */
+    /* .gover-cardsec {
+        flex-direction: column;
+    }
+    .gover-cardsec .card {
+        width: 100%;
+        margin-bottom: 10px
+    }
+    #governancesec3 .elementor-element-6568dbf {
+        padding: 0em 1em 1em 1em;
+    }
+    #governancesec6 .elementor-element-1bc043b p {
+        padding: 0% 0% 3% 1%;
+    }
+    #governancesec9giftman {
+        left: 11%;
+        width: 39%;
+    }
+    #governancesec9 .elementor-col-70 h2 {
+        font-size: 45px;
+        letter-spacing: 2px;
+        line-height: 55px;
+    }
+    #governance-12sec .elementor-element-ff5fdb8 {
+        padding: 5%;
+    }
+    #how-to-participate h2 {
+        letter-spacing: 1px;
+    }
+    #governancesec10 h2 {
+        padding: 5% 11% 0%;
+    }
+    #governance-mainbanner .elementor-element-83f6d5a>.elementor-element-populated {
+        padding: 1em 1em 1em 2em;
+    }
+    #governancesec2 {
+        background-position: center;
+    } */
 }
