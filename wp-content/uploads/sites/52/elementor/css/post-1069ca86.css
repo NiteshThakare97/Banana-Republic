@@ -3578,7 +3578,7 @@
         top: -191px;
     }
     /* Governance CSS  */
-    /* #governance-mainbanner {
+    #governance-mainbanner {
         padding: 3rem 0rem 16rem;
     }
     #governancesec2,
@@ -3593,7 +3593,7 @@
     }
     #governancesec9giftman {
         left: 30%;
-    } */
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -3621,7 +3621,7 @@
         top: 41rem;
     }
     /* Governance CSS  */
-    /* #governance-mainbanner {
+    #governance-mainbanner {
         padding: 3rem 0rem 8rem;
     }
     #governancesec7 {
@@ -3629,7 +3629,7 @@
     }
     #governancesec9giftman {
         left: 28%;
-    } */
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -3647,7 +3647,7 @@
         bottom: auto;
     }
     /* Governance CSS  */
-    /* #governancesec2 {
+    #governancesec2 {
         background-position: left;
     }
     #governancesec3 {
@@ -3669,7 +3669,7 @@
     }
     #governancesec7-col2text {
         padding: 0%;
-    } */
+    }
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
@@ -3696,9 +3696,9 @@
         left: 77%;
     }
     /* Governance CSS  */
-    /* #governance-mainbanner h6 {
+    #governance-mainbanner h6 {
         margin: 20px 482px 0px 0px;
-    } */
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
@@ -3749,7 +3749,7 @@
         top: -134px;
     }
     /* Governance CSS  */
-    /* #governancesec5-1 .elementskit-profile-info .elementskit-author-name {
+    #governancesec5-1 .elementskit-profile-info .elementskit-author-name {
         font-size: 15px;
     }
     #governance-mainbanner .elementor-element-c17c6ec p {
@@ -3769,7 +3769,7 @@
         letter-spacing: 0px;
         margin: 140px 0px 5px 0px;
         line-height: 65px;
-    } */
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -3906,7 +3906,7 @@
         width: 20px;
     }
     /* Governance CSS  */
-    /* .gover-cardsec {
+    .gover-cardsec {
         flex-direction: column;
     }
     .gover-cardsec .card {
@@ -3942,5 +3942,5 @@
     }
     #governancesec2 {
         background-position: center;
-    } */
+    }
 }
