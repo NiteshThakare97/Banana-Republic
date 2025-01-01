@@ -3551,6 +3551,181 @@
     padding-bottom: 4rem;
 }
 
+#how-to-buy-sec h3 {
+    display: flex;
+    align-items: flex-end;
+    font-size: 42px;
+}
+
+#how-to-buy-sec-span1,
+#how-to-buy-sec-span2 {
+    font-size: 22px;
+    line-height: normal;
+    text-transform: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+#how-to-buy-sec-span1 {
+    margin-bottom: 18px;
+}
+
+#how-to-buy-sec-BRP {
+    color: #ffca12;
+    font-style: italic;
+}
+
+#steps {
+    display: flex;
+}
+
+#steps hr {
+    padding-left: 1em;
+    border: 1px solid #ff5c30;
+    padding-top: 90px;
+    opacity: 1;
+    border-width: 0 0 1px 1px;
+    position: relative;
+    top: -73px;
+}
+
+#steps:first-child hr,
+#how-to-buy-sec-2 #steps:first-child hr {
+    padding-top: 50px;
+    top: -32px;
+}
+
+#how-to-buy-sec-2 #steps hr {
+    padding-top: 113px;
+    top: -97px;
+}
+
+#steps1div {
+    display: flex;
+    align-items: flex-start;
+}
+
+#steps button {
+    background-color: #ff5c30;
+    border-color: #ff5c30;
+    border-radius: 15px;
+    color: #fff;
+    margin-right: 20px;
+    padding: 3px 18px;
+    text-transform: capitalize;
+}
+
+#steps h6 {
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+#how-to-buy-sec .elementor-element-f032485>.elementor-element-populated {
+    padding: 0%;
+}
+
+#how-to-buy-sec .elementor-element-71d48f0>.elementor-widget-container {
+    text-align: left;
+}
+
+#how-to-buy-sec .elementor-element-ff5fdb8>.elementor-element-populated {
+    padding: 4em 2.1em 3em 0em;
+}
+
+#steps-text1 {
+    padding-right: 34%;
+}
+
+#steps-text2 {
+    padding-right: 23%;
+}
+
+#how-to-buy-sec h5 {
+    font-size: 22px;
+    color: #ffca12;
+    padding-left: 19%;
+}
+
+#how-to-buy-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#how-buy-app-text {
+    position: absolute;
+    left: 44%;
+    top: 27%;
+}
+
+#how-buy-app-text span {
+    font-size: 46px;
+    color: #ffca12;
+}
+
+#how-buy-app {
+    margin-top: -32%;
+    margin-left: 2%;
+}
+
+#how-to-buy-sec p {
+    letter-spacing: normal;
+}
+
+#how-to-buy-or {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: -20px;
+    padding-left: 35px;
+}
+
+#how-to-buy-or hr {
+    width: 200px;
+    opacity: 1;
+    border: 1px solid #ff5c30;
+}
+
+#how-to-buy-or-text {
+    width: 46px;
+    height: 46px;
+    background: linear-gradient(45deg, #ff6d2b, #ffba16);
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 50%;
+    padding-top: 6px;
+    color: #172951;
+    margin: 0px 15px;
+}
+
+#how-to-buy-sec-1 {
+    border-radius: 85px 85px 0px 0px;
+}
+
+#how-to-buy-sec-1>#how-to-buy-sec .elementor-element-71d48f0>.elementor-widget-container img {
+    border-radius: 85px 85px 0px 0px;
+}
+
+#how-to-buy-sec-1img {
+    border-radius: 86px 0px 0px 0px;
+}
+
+#how-to-buy-sec-2 {
+    border-radius: 0px 0px 85px 85px;
+}
+
+#how-to-buy-sec .elementor-container {
+    background: #142447;
+}
+
+#how-to-buy-bananacoin {
+    position: absolute;
+    z-index: 1;
+    top: 33%;
+    left: 27%;
+}
+
 @media only screen and (min-width: 1600px) {
     .elementor-1069 .elementor-element.elementor-element-6a6026a {
         padding: 13rem 0rem 33rem;
@@ -3599,6 +3774,9 @@
 @media only screen and (min-width: 1024px) {
     #nav-btn a {
         padding: 0px;
+    }
+    #how-to-buy-title {
+        padding-right: 5%;
     }
 }
 
@@ -3669,6 +3847,21 @@
     }
     #governancesec7-col2text {
         padding: 0%;
+    }
+    #how-to-buy-or {
+        top: -5px;
+        padding-left: 116px;
+    }
+    #how-buy-app-text {
+        left: 42%;
+        top: 41%;
+    }
+    #how-buy-app {
+        margin-top: -15%;
+        margin-left: 6%;
+    }
+    #how-to-buy-sec .elementor-element-ff5fdb8>.elementor-element-populated {
+        padding: 2em 1em;
     }
 }
 
@@ -3942,5 +4135,65 @@
     }
     #governancesec2 {
         background-position: center;
+    }
+    #how-to-buy-sec h3 {
+        align-items: flex-end;
+        font-size: 30px;
+    }
+    #how-to-buy-title {
+        flex-direction: column;
+        align-items: center;
+    }
+    #how-to-buy-sec-span1,
+    #how-to-buy-sec-span2 {
+        font-size: 14px;
+    }
+    #how-to-buy-sec .elementor-element-ff5fdb8>.elementor-element-populated {
+        padding: 4em 1em;
+    }
+    #how-to-buy-sec-1,
+    #how-to-buy-sec-2,
+    #how-to-buy-sec-1img {
+        border-radius: 0px;
+    }
+    #how-to-buy-title img {
+        width: 60%;
+    }
+    #how-to-buy-or hr {
+        width: 92px;
+    }
+    #how-to-buy-or-text {
+        width: 35px;
+        height: 35px;
+        padding-top: 4px;
+    }
+    #how-to-buy-or {
+        /* padding-left: 33px; */
+        display: none;
+    }
+    #steps hr {
+        padding-top: 168px;
+        top: -153px;
+    }
+    #how-to-buy-sec-2 #steps hr {
+        padding-top: 168px;
+        top: -150px;
+    }
+    #how-to-buy-sec h5 {
+        font-size: 16px;
+        padding-left: 14%;
+    }
+    #how-to-buy-sec-1 h5 {
+        margin-top: -70px;
+    }
+    #how-buy-app-text {
+        left: 65%;
+    }
+    #how-buy-app {
+        margin-top: -25%;
+        margin-left: 0%;
+    }
+    #how-buy-app-text span {
+        font-size: 22px;
     }
 }
