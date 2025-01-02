@@ -26,6 +26,7 @@
     <meta name='robots' content='max-image-preview:large' />
     <link rel="alternate" type="application/rss+xml" title="Banana Republic &raquo; Feed" href="../feed/index.html" />
     <link rel="alternate" type="application/rss+xml" title="Banana Republic &raquo; Comments Feed" href="../comments/feed/index.html" />
+
     <script>
         window._wpemojiSettings = {
             "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
@@ -551,6 +552,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
 
     <link rel="stylesheet" href="wp-content/uploads/sites/52/elementor/css/roadmap.css">
+
 </head>
 
 <body class="page-template page-template-elementor_header_footer page page-id-1069 elementor-default elementor-template-full-width elementor-kit-4 elementor-page elementor-page-1069" style="background-color: #fff;">
@@ -663,110 +665,240 @@
     </div>
     <div data-elementor-type="wp-page" data-elementor-id="1069" class="elementor elementor-1069">
         <section id="roadmap">
-            <div>
-                <h2 style="color: #000000; text-align: center;">ROADMAP</h2>
-            </div>
+            <!-- Bg Animation HTML  -->
+            <!-- <img src="wp-content/images/roadmap/Banana_bg-shower/Banana-for-shower.png" class="i n1"></img>
+            <img src="wp-content/images/roadmap/Banana_bg-shower/Banana-for-shower.png" class="i n2"></img>
+            <img src="wp-content/images/roadmap/Banana_bg-shower/Banana-for-shower.png" class="i n3"></img>
+            <img src="wp-content/images/roadmap/Banana_bg-shower/Banana-for-shower.png" class="i n4"></img>
+            <img src="wp-content/images/roadmap/Banana_bg-shower/Banana-for-shower.png" class="i n5"></img>
+            <img src="wp-content/images/roadmap/Banana_bg-shower/Banana-for-shower.png" class="i n6"></img> -->
+            <!-- Bg Animation HTML  -->
+
             <!-- Roadmap  -->
-            <div class="card-container">
-                <div class="card">
-                    <a href="#!">
-                        <div class="card--display"><i class="fa-solid fa-hot-tub-person"></i>
-                            <h2>Foundation and Community Building </h2>
+
+            <!-- Roadmap JS  -->
+            <!-- <script>
+        jQuery(document).ready(function($) {
+            var $timeline_block = $(".cd-timeline-block");
+
+            $timeline_block.each(function() {
+                if (
+                    $(this).offset().top >
+                    $(window).scrollTop() + $(window).height() * 0.75
+                ) {
+                    $(this)
+                        .find(".cd-timeline-img, .cd-timeline-content")
+                        .addClass("is-hidden");
+                }
+            });
+
+
+            $(window).on("scroll", function() {
+                $timeline_block.each(function() {
+                    if (
+                        $(this).offset().top <=
+                        $(window).scrollTop() + $(window).height() * 0.75 &&
+                        $(this).find(".cd-timeline-img").hasClass("is-hidden")
+                    ) {
+                        $(this)
+                            .find(".cd-timeline-img, .cd-timeline-content")
+                            .removeClass("is-hidden")
+                            .addClass("bounce-in");
+                    }
+                });
+            });
+        });
+    </script> -->
+            <script>
+                jQuery(document).ready(function($) {
+                    var $timeline_block = $('.cd-timeline-block');
+
+                    //hide timeline blocks which are outside the viewport
+                    $timeline_block.each(function() {
+                        if ($(this).offset().top > $(window).scrollTop() + $(window).height() * 0.75) {
+                            $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+                        }
+                    });
+
+                    //on scolling, show/animate timeline blocks when enter the viewport
+                    $(window).on('scroll', function() {
+                        $timeline_block.each(function() {
+                            if ($(this).offset().top <= $(window).scrollTop() + $(window).height() * 0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden')) {
+                                $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+                            }
+                        });
+                    });
+                });
+            </script>
+            <!-- Roadmap JS  -->
+            <section id="cd-timeline" class="cd-container">
+                <div class="cd-timeline-block block1">
+                    <div class="cd-timeline-img cd-picture">
+                        <img src="wp-content/images/roadmap/Icon/Bnanana-png.png" alt="Picture">
+                    </div>
+                    <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <div class="timeline-title">
+                            <div id="timelinenumb">
+                                <h1>Q1</h1>
+                            </div>
+                            <div>
+                                <h2>Foundation and Community Building </h2>
+                                <h2 style="color: #ffcf0e; margin-bottom: 0px;">Objective:</h2>
+                                <p>Set the groundwork for the Banana Republic Meme Country. </p>
+                            </div>
                         </div>
-                        <div class="card--hover">
-                            <h2>Objective</h2>
-                            <p>Set the groundwork for the Banana Republic Meme Country. </p>
-                            <h2>Key Actions:</h2>
+                        <div class="timeline-action">
+                            <h2 style="margin-bottom: 0px; color: #0e1a39;">Key Actions:</h2>
+                            <p>Set the groundwork for the Banana Republic Meme Country.</p>
                             <ul>
-                                <li>Launch Banana Republic Token (BRT) with a fair distribution via the Tapping Game.</li>
-                                <li>Onboard the first wave of citizens who will form the core community. </li>
+                                <li>Launch Banana Republic Token (BRT) with a fair distribution via the Tapping Game. </li>
+                                <li>Onboard the first wave of citizens who will form the core community.</li>
                                 <li>Establish the concept of the Banana Republic as a meme country, engaging users with humor and community spirit.</li>
                             </ul>
                         </div>
-                    </a>
-                    <div class="card--border"></div>
+                        <!-- <h2>Title of section 1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+                        <a href="#0" class="cd-read-more">Read more</a>
+                        <span class="cd-date">Jan 14</span> -->
+                    </div>
+                    <!-- cd-timeline-content -->
                 </div>
-            </div>
-            <div class="card-container">
-                <div class="card card--dark">
-                    <a href="#!">
-                        <div class="card--display"><i class="fa-solid fa-hot-tub-person"></i>
-                            <h2>Governance and Engagement </h2>
+                <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block block2">
+                    <div class="cd-timeline-img cd-movie">
+                        <img src="wp-content/images/roadmap/Icon/Bnanana_Flip.png" alt="Movie">
+                    </div>
+                    <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <div class="timeline-title">
+                            <div id="timelinenumb">
+                                <h1>Q2</h1>
+                            </div>
+                            <div>
+                                <h2>Governance and Engagement </h2>
+                                <h2 style="color: #39b54a; margin-bottom: 0px;">Objective:</h2>
+                                <p>Introduce governance to give citizens a voice in the ecosystem. </p>
+                            </div>
                         </div>
-                        <div class="card--hover">
-                            <h2>Objective: </h2>
-                            <p>Introduce governance to give citizens a voice in the ecosystem.</p>
-                            <h2>Key Actions: </h2>
+                        <div class="timeline-action">
+                            <h2 style="margin-bottom: 10px; color: #fff;">Key Actions:</h2>
+                            <!-- <p>Introduce governance to give citizens a voice in the ecosystem. </p> -->
                             <ul>
                                 <li>Roll out the decentralized governance model for citizens. </li>
-                                <li>Elect the first Supreme Council to oversee decisions and initiatives. </li>
+                                <li>Elect the first Supreme Council to oversee decisions and initiatives.</li>
                                 <li>Launch community-led committees focused on global challenges like climate, economics, and digital rights.</li>
                                 <li>Enable citizen-driven proposals, where each citizen can contribute ideas and solutions.
                                 </li>
                             </ul>
                         </div>
-                    </a>
-                    <div class="card--border"></div>
+                    </div>
+                    <!-- cd-timeline-content -->
                 </div>
-            </div>
-            <div class="card-container">
-                <div class="card">
-                    <a href="#!">
-                        <div class="card--display"><i class="fa-solid fa-hot-tub-person"></i>
-                            <h2> Expansion and Collaboration </h2>
+                <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block block3">
+                    <div class="cd-timeline-img cd-picture">
+                        <img src="wp-content/images/roadmap/Icon/Bnanana-png.png" alt="Picture">
+                    </div>
+                    <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <div class="timeline-title">
+                            <div id="timelinenumb">
+                                <h1>Q3</h1>
+                            </div>
+                            <div>
+                                <h2>Expansion and Collaboration </h2>
+                                <h2 style="color: #ffcf0e; margin-bottom: 0px;">Objective:</h2>
+                                <p>Broaden the influence and partnerships of the Banana Republic. </p>
+                            </div>
                         </div>
-                        <div class="card--hover">
-                            <h2>Objective:</h2>
+                        <div class="timeline-action">
+                            <h2 style="margin-bottom: 0px; color: #0e1a39;">Key Actions:</h2>
                             <p>Broaden the influence and partnerships of the Banana Republic.</p>
-                            <h2>Key Actions:</h2>
                             <ul>
                                 <li>Forge global partnerships to amplify the meme country’s presence and impact. </li>
                                 <li>Launch new rewards and in-game achievements to keep citizens actively engaged. </li>
-                                <li>Host events and collaborations to increase visibility and attract more citizens globally. </li>
+                                <li>Host events and collaborations to increase visibility and attract more citizens globally.</li>
                             </ul>
-
                         </div>
-                    </a>
-                    <div class="card--border"></div>
+                    </div>
+                    <!-- cd-timeline-content -->
                 </div>
-            </div>
-            <div class="card-container">
-                <div class="card card--dark">
-                    <a href="#!">
-                        <div class="card--display"><i class="fa-solid fa-hot-tub-person"></i>
-                            <h2>Global Impact and Evolution </h2>
+                <!-- cd-timeline-block -->
+
+                <div class="cd-timeline-block block4">
+                    <div class="cd-timeline-img cd-location">
+                        <img src="wp-content/images/roadmap/Icon/Bnanana_Flip.png" alt="Location">
+                    </div>
+                    <!-- cd-timeline-img -->
+
+                    <div class="cd-timeline-content">
+                        <div class="timeline-title">
+                            <div id="timelinenumb">
+                                <h1>Q4</h1>
+                            </div>
+                            <div>
+                                <h2>Global Impact and Evolution </h2>
+                                <h2 style="color: #39b54a; margin-bottom: 0px;">Objective:</h2>
+                                <p> Position the Banana Republic as a positive force for global change. </p>
+                            </div>
                         </div>
-                        <div class="card--hover">
-                            <h2>Objective: </h2>
-                            <p>Position the Banana Republic as a positive force for global change. </p>
-                            <h2>Key Actions: </h2>
+                        <div class="timeline-action">
+                            <h2 style="margin-bottom: 0px; color: #fff;">Key Actions:</h2>
+                            <p> Position the Banana Republic as a positive force for global change.</p>
                             <ul>
                                 <li>Conduct Supreme Council elections to ensure fresh leadership and ideas.
                                 </li>
                                 <li>Use meme power and community influence to raise awareness on global issues. </li>
-                                <li>Guide citizen-led initiatives that have real-world relevance and impact, shaping a better world through the collective voice of the Banana Republic.
-                                </li>
+                                <li>Guide citizen-led initiatives that have real-world relevance and impact, shaping a better world through the collective voice of the Banana Republic. </li>
                             </ul>
                         </div>
-                    </a>
-                    <div class="card--border"></div>
+                    </div>
+                    <!-- cd-timeline-content -->
                 </div>
-            </div>
-            <!-- <div class="card-container">
-                <div class="card">
-                    <a href="trainthings">
-                        <div class="card--display"><i class="fa-solid fa-hot-tub-person"></i>
-                            <h2>Why I Hate Trains</h2>
-                        </div>
-                        <div class="card--hover">
-                            <h2>Why I Hate Trains</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at est orci. Nam molestie pellentesque mi nec lacinia. Cras volutpat arcu sit amet elit sodales, nec volutpat velit bibendum.</p>
+                <!-- cd-timeline-block -->
 
-                        </div>
-                    </a>
-                    <div class="card--border"></div>
+                <!-- <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-location">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-location.svg" alt="Location">
+                    </div>
+
+                    <div class="cd-timeline-content">
+                        <h2>Title of section 5</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+                        <a href="#0" class="cd-read-more">Read more</a>
+                        <span class="cd-date">Feb 18</span>
+                    </div>
                 </div>
-            </div> -->
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-movie">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-movie.svg" alt="Movie">
+                    </div>
+
+                    <div class="cd-timeline-content">
+                        <h2>Final Section</h2>
+                        <p>This is the content of the last section</p>
+                        <span class="cd-date">Feb 26</span>
+                    </div>
+                </div> -->
+            </section>
+            <!-- cd-timeline -->
+
+            <section class="cd-container">
+                <div style="text-align: center; position: relative;">
+                    <img src="wp-content/images/roadmap/BananaCharacter/BananaCharacter.png" alt="" id="bananacharacter">
+                    <div id="roadmap-lastcontent">
+                        <p>This Roadmap is crafted to build a fun, meaningful, and impactful digital nation that engages its citizens at every stage, from foundational building to global influence. </p>
+                    </div>
+                </div>
+            </section>
+
             <!-- Roadmap Ends  -->
         </section>
 
@@ -1066,6 +1198,7 @@
             </section>
         </div>
     </div>
+
     <script type='text/javascript'>
         const lazyloadRunObserver = () => {
             const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
