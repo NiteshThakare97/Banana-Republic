@@ -5,6 +5,10 @@
     padding: 2em 0em;
 }
 
+#roadmap-banner {
+    margin: -1px 0px -10px;
+}
+
 a {
     color: #acb7c0;
     text-decoration: none;
@@ -731,5 +735,8 @@ header h1 {
     }
     #bananacharacter {
         height: 152px;
+    }
+    #roadmap-banner {
+        margin: -6px 0px -6px;
     }
 }
