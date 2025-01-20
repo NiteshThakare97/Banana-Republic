@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /api/
+Disallow: /login/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+Sitemap: https://www.webananarepublic.com/sitemap.xml
