@@ -2520,6 +2520,11 @@
     width: 84%;
 }
 
+#start-tapping a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 .elementor-1069 .elementor-element.elementor-element-6fbd8c3 h2 {
     color: #171b26;
     font-size: 40px;
@@ -3002,6 +3007,29 @@
     -webkit-animation: jello-horizontal 0.9s both;
     animation: jello-horizontal 0.9s both;
     cursor: pointer;
+}
+
+#homesec4 .elementor-element-1bc043b h6 {
+    color: #fff;
+    letter-spacing: 2px;
+    padding-right: 8%;
+}
+
+#homesec5-2 {
+    background-color: #122148;
+}
+
+#homesec5-2-ele40 h2,
+#homesec5-2-ele40 h4 {
+    color: #171b26
+}
+
+#governance h6 {
+    color: #f3bd1f;
+}
+
+#governance h2 {
+    letter-spacing: 4px;
 }
 
 
@@ -3638,6 +3666,10 @@
     padding-right: 34%;
 }
 
+#steps-text1 span {
+    color: #ffca12;
+}
+
 #steps-text2 {
     padding-right: 23%;
 }
@@ -3653,10 +3685,18 @@
     justify-content: space-between;
 }
 
+#how-to-buy-title h3 {
+    color: #ffca12;
+}
+
 #how-buy-app-text {
     position: absolute;
     left: 44%;
     top: 27%;
+}
+
+#how-buy-app-text h4 {
+    text-transform: none;
 }
 
 #how-buy-app-text span {
@@ -3725,6 +3765,11 @@
     z-index: 1;
     top: 33%;
     left: 27%;
+}
+
+#story-board-cont {
+    justify-content: center;
+    margin-bottom: 15px;
 }
 
 @media only screen and (min-width: 1600px) {
