@@ -2751,9 +2751,10 @@
     top: 30px;
 }
 
-#sec5text h1 {
+#sec5text h2 {
     font-size: 85px;
     text-shadow: 4px 6px #bb841d;
+    font-family: "Montserrat", sans-serif;
 }
 
 #sec5bananamic {
@@ -4025,7 +4026,7 @@
     #sec5text {
         top: 5px;
     }
-    #sec5text h1 {
+    #sec5text h2 {
         font-size: 60px;
     }
     .elementor-1069 .elementor-element.elementor-element-addae36 .elementskit-single-testimonial-slider {
